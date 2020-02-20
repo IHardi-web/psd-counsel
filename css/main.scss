@@ -11,6 +11,7 @@ $font-size-subtitle: 21px;
 $font-size-paragraph: 16px;
 $color-yellow: #fde428;
 $color-blue: #002e5b;
+$color-blue-hover: #224f7d;
 $color-darkblue: #07294a;
 $color-white: #fff;
 $color-grey: #666666;
@@ -177,7 +178,7 @@ body {
             border-bottom: 2px solid;
 
             &:hover {
-                color: $color-blue*5%;
+                color: $color-blue-hover;
             }
         }
 
